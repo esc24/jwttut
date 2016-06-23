@@ -1,3 +1,9 @@
+"""
+Flask web app that exposes ttwo endpoints, one of which requires a JWT
+to work.
+
+"""
+
 import jwt
 import base64
 import os
