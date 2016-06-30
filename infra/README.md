@@ -18,7 +18,7 @@ run:
 
     cfn -r eu-west-1 -n ec2instancetemplate -b cloudformationbucket123 -c ec2instance.json ec2instancestack
 
-note this will upload teh template and trigger creation of the infrastructure
+note this will upload the template and trigger creation of the infrastructure
 
 
 
